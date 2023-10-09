@@ -21,7 +21,7 @@ const routes: Routes = [
   {
     path: 'product/:id',
     component: ProductPageComponent,
-    //resolve: {data: ProductResolver}
+    resolve: {data: ProductResolver}
   }
 ];
 

@@ -21,7 +21,7 @@ export class ProductPageComponent implements OnInit {
 
   ngOnInit(): void {
      this.route.data.subscribe((data) => {
-     this.product = data['product'];
+     this.product = data['data'];
       console.log(data)
     })
    }

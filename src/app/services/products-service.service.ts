@@ -23,7 +23,7 @@ export class ProductsService {
   }
 
   getProduct(id: number): Observable<IProduct> {
-    return this.http.get<IProduct>(`https://kupikolesa.it-trends.ru/api/product/Popular/` + id)
+    return this.http.get<IProduct>(`https://kupikolesa.it-trends.ru/api/product/` + id)
   }
 
 }
